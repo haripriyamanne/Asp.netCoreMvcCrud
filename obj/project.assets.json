@@ -4948,7 +4948,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Siva\\.nuget\\packages\\": {}
+    "C:\\Users\\Siva\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -4959,6 +4960,9 @@
       "packagesPath": "C:\\Users\\Siva\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Siva\\Downloads\\asp-dot-net-core-mvc-crud-master\\asp-dot-net-core-mvc-crud-master\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\Siva\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

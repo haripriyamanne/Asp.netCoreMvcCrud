@@ -19,9 +19,6 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Views\Employee\" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Remove="Views\Employee\Create.cshtml" />
     <Content Remove="Views\Employee\Details.cshtml" />
     <Content Remove="Views\Employee\Edit.cshtml" />

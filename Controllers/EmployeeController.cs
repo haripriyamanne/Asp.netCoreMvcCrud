@@ -16,14 +16,6 @@ namespace Asp.netCoreMvcCrud.Controllers
         {
             _context = context;
         }
-
-        // GET: /<controller>/
-        //public IActionResult Index()
-        //{
-        //    return View();
-        //}
-
-        // GET: Employee
         public async Task<IActionResult> Index()
         {
             return View(await _context.Employees.ToListAsync());
@@ -55,7 +47,7 @@ namespace Asp.netCoreMvcCrud.Controllers
             return View(employee);
         }
 
-        // GET: Employee/Delete/5
+   
         public async Task<IActionResult> Delete(int? id)
         {
             var employee = await _context.Employees.FindAsync(id);
